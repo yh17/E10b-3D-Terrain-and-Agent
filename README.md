@@ -21,7 +21,7 @@ I have populated the scene with a Game node, and a Ground StaticBody to stand on
  
  * Create a new MeshInstance as a child of Enemy. In the Inspector->MeshInstance->Mesh, select New SphereMesh. Then, in the same menu, select Edit. Change Radius=2 and Height=4
 
- * Create another new MeshInstance as a child of Enemy. In the Inspector->MeshInstance->Mesh, select New PrismMesh. Then, in the same menu, select Edit. Change Size.x=2, y=2, z=2. Go back. In Inspector->Spatial->Transform->Translation, set z=2. Inspector->Spatial->Transform->Rotation Degrees, set x=90
+ * Create another new MeshInstance as a child of Enemy. In the Inspector->MeshInstance->Mesh, select New PrismMesh. Then, in the same menu, select Edit. Change Size.x=2, y=2, z=2. Select PrimativeMesh->Mesh and select New SpatialMaterial. Go back. In Inspector->Spatial->Transform->Translation, set z=2. Inspector->Spatial->Transform->Rotation Degrees, set x=90
  
  * Create Convex Collision Siblings for MeshInstance and MeshInstance2
  
